@@ -51,6 +51,11 @@
   resolved "https://registry.yarnpkg.com/@types/scheduler/-/scheduler-0.16.1.tgz#18845205e86ff0038517aab7a18a62a6b9f71275"
   integrity sha512-EaCxbanVeyxDRTQBkdLb3Bvl/HK7PBK6UJjsSixB0iHKoWxE5uu2Q/DgtpOhPIojN0Zl1whvOd7PoHs2P0s5eA==
 
+"@types/three@^0.127.0":
+  version "0.127.0"
+  resolved "https://registry.yarnpkg.com/@types/three/-/three-0.127.0.tgz#6d2bf6d7c14d4c4dc399a0e355085f27e996ac89"
+  integrity sha512-4Q33L6PzzxCXm0VdUv4x1/4VBnwWgCS7Ui6WpRh88GVIUUYsg5qU2GVzva14hDJbtfyNBxey7UcdInR4RkKPeQ==
+
 csstype@^3.0.2:
   version "3.0.7"
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.7.tgz#2a5fb75e1015e84dd15692f71e89a1450290950b"
