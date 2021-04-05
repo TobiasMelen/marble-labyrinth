@@ -1,0 +1,23 @@
+{
+  "name": "marble-labyrinth",
+  "version": "0.1.0",
+  "repository": "https://github.com/tobiasmelen/marble-labyrinth",
+  "author": "Tobias Melen",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "esbuild src/index.tsx --minify --sourcemap --bundle --outfile=site/build.js",
+    "dev": "esbuild src/index.tsx --serve --servedir=site --bundle --sourcemap --outfile=site/build.js"
+  },
+  "dependencies": {
+    "@react-three/fiber": "^6.0.8",
+    "esbuild": "^0.11.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "three": "^0.127.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3"
+  }
+}

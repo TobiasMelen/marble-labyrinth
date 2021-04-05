@@ -1,0 +1,22 @@
+
+name: Deploy app to GitHub Pages
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Install and build
+      run: |
+        cd client-app
+        yarn install --production --frozen-lockfile
+        yarn build
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@4.1.0
+      with:
+        branch: gh-pages
+        folder: site
