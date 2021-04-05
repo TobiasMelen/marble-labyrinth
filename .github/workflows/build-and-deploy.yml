@@ -12,7 +12,6 @@ jobs:
       uses: actions/checkout@v2
     - name: Install and build
       run: |
-        cd client-app
         yarn install --production --frozen-lockfile
         yarn build
     - name: Deploy
